@@ -2,3 +2,12 @@
 {
   display: table;
 }
+.fila
+{
+  display: table-row;
+}
+
+.columna
+{
+  display: table-cell;
+}
