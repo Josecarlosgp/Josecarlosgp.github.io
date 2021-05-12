@@ -1,7 +1,7 @@
 function gestionarFicheroXML(xmlDoc){
 	let capaVacia = document.querySelector("#ficheroXML")
 	let libros = xmlDoc.querySelectorAll("libro")
-	let tabla = document.querySelector("tabla");
+	let tabla = document.querySelector(".tabla");
 	alert(tabla);
 	for(let i=0; i<libros.length; i++)
 		tabla.innerHTML += "<div class = 'fila'>" +  libros[i].textContent + "</div>"
